@@ -1,12 +1,14 @@
 var comparar = function(arreglo1, arreglo2){
   if(arreglo1.length !== arreglo2.length){
-    return false;
+        return false;
   }else{
-    for(var i = 0; i < arreglo1.length; i+=1){
-      if(){
-        
+      for(var i = 0; i < arreglo1.length; i+=1){
+      if(arreglo1[i] !== arreglo2[i]){
+        return false;
       }
     }
+    document.write("Todas las condiciones se cumplen");
+    return true;
   }
 }
 
